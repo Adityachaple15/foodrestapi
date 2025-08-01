@@ -56,7 +56,7 @@
 
         private UrlBasedCorsConfigurationSource corsConfigurationSource() {
             CorsConfiguration config = new CorsConfiguration();
-            config.setAllowedOrigins(List.of("https://vermillion-florentine-793710.netlify.app/","https://warm-palmier-8c7ee4.netlify.app/"));
+            config.setAllowedOrigins(List.of("https://vermillion-florentine-793710.netlify.app/","https://food-application-8c7ee4.netlify.app/"));
             config.setAllowedMethods(List.of("GET", "POST", "PUT", "DELETE", "OPTIONS", "PATCH"));
             config.setAllowedHeaders(List.of("Authorization", "Content-Type"));
             config.setAllowCredentials(true);
